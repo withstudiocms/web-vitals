@@ -1,6 +1,6 @@
 {
   "name": "@studiocms/web-vitals",
-  "description": "Track your website’s performance with Astro DB",
+  "description": "Track your website's performance with Astro DB",
   "version": "4.0.0",
   "type": "module",
   "author": "studiocms",
