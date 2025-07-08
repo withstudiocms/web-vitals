@@ -80,29 +80,18 @@ To remove the Web Vitals integration, follow the Astro DB deprecation process:
 
 - Get help in the [StudioCMS Discord][discord]. Post questions in our `#support` forum, or visit our dedicated `#dev` channel to discuss current development and more!
 
-- Check our [Astro Integration Documentation][astro-integration] for more on integrations.
+- Check the [Astro Integration Documentation][astro-integration] for more on integrations.
 
 - Submit bug reports and feature requests as [GitHub issues][issues].
-
-## Contributing
-
-This package is maintained by Astro's Core team. You're welcome to submit an issue or PR! These links will help you get started:
-
-- [Contributor Manual][contributing]
-- [Code of Conduct][coc]
-- [Community Guide][community]
 
 ## License
 
 MIT
 
-Copyright (c) 2023–present [Astro][astro]
+Copyright (c) 2023–present [Astro][astro] - Modified by StudioCMS 2025
 
 [astro]: https://astro.build/
 [db]: https://astro.build/db/
-[contributing]: https://github.com/withastro/astro/blob/main/CONTRIBUTING.md
-[coc]: https://github.com/withastro/.github/blob/main/CODE_OF_CONDUCT.md
-[community]: https://github.com/withastro/.github/blob/main/COMMUNITY_GUIDE.md
 [discord]: https://chat.studiocms.dev
 [issues]: https://github.com/withstudiocms/web-vitals/issues
 [astro-integration]: https://docs.astro.build/en/guides/integrations-guide/
