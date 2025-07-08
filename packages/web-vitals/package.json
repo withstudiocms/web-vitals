@@ -1,0 +1,48 @@
+{
+  "name": "@studiocms/web-vitals",
+  "description": "Track your website’s performance with Astro DB",
+  "version": "4.0.0",
+  "type": "module",
+  "author": "withastro",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/withstudiocms/web-vitals.git",
+    "directory": "packages/web-vitals"
+  },
+  "keywords": [
+    "withastro",
+    "astro-integration"
+  ],
+  "bugs": "https://github.com/withstudiocms/web-vitals/issues",
+  "exports": {
+    ".": "./dist/index.js",
+    "./middleware": "./dist/middleware.js",
+    "./endpoint": "./dist/endpoint.js",
+    "./client-script": "./dist/client-script.js",
+    "./db-config": "./dist/db-config.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "buildkit build 'src/**/*.{ts,astro,css,json,png}'",
+    "dev": "buildkit dev 'src/**/*.{ts,astro,css,json,png}'",
+    "test": "test-scripts test --timeout 50000 \"test/**/*.test.js\""
+  },
+  "dependencies": {
+    "web-vitals": "^4.2.4"
+  },
+  "peerDependencies": {
+    "@astrojs/db": "^0.15.0"
+  },
+  "devDependencies": {
+    "@astrojs/db": "catalog:",
+    "@inox-tools/astro-tests": "catalog:",
+    "astro": "catalog:",
+    "linkedom": "^0.18.9"
+  },
+  "publishConfig": {
+    "provenance": true
+  }
+}
