@@ -65,12 +65,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.STUDIOCMS_SERVICE_TOKEN }}
 
-  mergebot:
-    name: Merge Bot
-    if: ${{ github.repository_owner == 'withstudiocms' && github.event_name != 'workflow_dispatch' && github.event.commits[0].message != '[ci] lint' }}
-    uses: withstudiocms/automations/.github/workflows/mergebot.yml@main
-    secrets:
-      DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_MERGEBOT }}
+  # mergebot:
+  #   name: Merge Bot
+  #   if: ${{ github.repository_owner == 'withstudiocms' && github.event_name != 'workflow_dispatch' && github.event.commits[0].message != '[ci] lint' }}
+  #   uses: withstudiocms/automations/.github/workflows/mergebot.yml@main
+  #   secrets:
+  #     DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_MERGEBOT }}
 
   changeset-release:
     name: Changeset Release
