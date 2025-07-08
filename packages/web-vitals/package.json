@@ -3,7 +3,7 @@
   "description": "Track your website’s performance with Astro DB",
   "version": "4.0.0",
   "type": "module",
-  "author": "withastro",
+  "author": "studiocms",
   "license": "MIT",
   "repository": {
     "type": "git",

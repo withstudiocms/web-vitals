@@ -2,6 +2,8 @@
 
 This **[Astro integration][astro-integration]** enables tracking real-world website performance and storing the data in [Astro DB][db].
 
+`@studiocms/web-vitals` is a fork of the `@astrojs/web-vitals` package originally provided by the WithAstro organization for the Astro Studio product offering they have since sunset. StudioCMS was asked to takeover this package due to our integration of this package within StudioCMS for vitals and analytics reporting.
+
 ## Pre-requisites
 
 - [Astro DB](https://astro.build/db) — `@studiocms/web-vitals` will store performance data in Astro DB in production
@@ -26,6 +28,10 @@ This **[Astro integration][astro-integration]** enables tracking real-world webs
 4. Your data will now be stored within your db!
 
 Learn more about [Astro DB](https://docs.astro.build/en/guides/astro-db/) and [deploying with Astro Studio](https://docs.astro.build/en/guides/astro-db/#astro-studio) in the Astro docs.
+
+## Migrating from `@astrojs/web-vitals`
+
+Migrating is super easy, just replace the entries in your `package.json` and `astro.config.*` files with the new name `@studiocms/web-vitals` and your good to go! We have not changed any of the table structures or variables as it's simply not needed as this project worked perfectly beforehand.
 
 ## Uninstalling
 
