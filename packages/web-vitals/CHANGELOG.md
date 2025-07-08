@@ -1,5 +1,11 @@
 # @studiocms/web-vitals
 
+## 4.0.1
+
+### Patch Changes
+
+- [`6982181`](https://github.com/withstudiocms/web-vitals/commit/6982181306fd94f17638792921da10d9a3ef6f8f) Thanks [@Adammatthiesen](https://github.com/Adammatthiesen)! - Fork and Rename to `@studiocms/web-vitals`
+
 ## 4.0.0
 
 ### Patch Changes
