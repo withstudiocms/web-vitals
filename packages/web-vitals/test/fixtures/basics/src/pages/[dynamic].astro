@@ -1,5 +1,5 @@
 ---
-import type { GetStaticPaths } from "astro";
+import type { GetStaticPaths } from 'astro';
 export const getStaticPaths = (() => {
 	return [{ params: { dynamic: 'test' } }];
 }) satisfies GetStaticPaths;

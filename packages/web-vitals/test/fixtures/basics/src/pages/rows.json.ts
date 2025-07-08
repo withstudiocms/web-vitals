@@ -1,4 +1,4 @@
-import { db, AstrojsWebVitals_Metric } from "astro:db";
+import { AstrojsWebVitals_Metric, db } from 'astro:db';
 
 export const prerender = false;
 

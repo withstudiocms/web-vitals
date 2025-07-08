@@ -15,7 +15,7 @@ export default function webVitals({ deprecated }: { deprecated?: boolean } = {})
 				if (!config.integrations.find(({ name }) => name === 'astro:db')) {
 					throw new AstroError(
 						'Astro DB integration not found.',
-						'Run `npx astro add db` to install `@astrojs/db` and add it to your Astro config.',
+						'Run `npx astro add db` to install `@astrojs/db` and add it to your Astro config.'
 					);
 				}
 

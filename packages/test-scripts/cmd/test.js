@@ -54,7 +54,7 @@ export default async function test() {
 		await fs.mkdir(path.dirname(tempTestFile), { recursive: true });
 		await fs.writeFile(
 			tempTestFile,
-			files.map((f) => `import ${JSON.stringify(pathToFileURL(f).toString())};`).join('\n'),
+			files.map((f) => `import ${JSON.stringify(pathToFileURL(f).toString())};`).join('\n')
 		);
 
 		files.length = 0;
