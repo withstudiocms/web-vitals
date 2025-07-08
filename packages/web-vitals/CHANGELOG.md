@@ -1,4 +1,4 @@
-# @astrojs/web-vitals
+# @studiocms/web-vitals
 
 ## 4.0.0
 
