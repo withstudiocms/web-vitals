@@ -12,13 +12,16 @@ const config: KnipConfig = {
 			project: ['**/*.{js,cjs,mjs,jsx,ts,cts,mts,tsx}'],
 		},
 		'packages/web-vitals': {
-			entry: ['src/**/*.{js,cjs,mjs,jsx,ts,cts,mts,tsx}', 'test/**/*.{js,cjs,mjs,jsx,ts,cts,mts,tsx}'],
+			entry: [
+				'src/**/*.{js,cjs,mjs,jsx,ts,cts,mts,tsx}',
+				'test/**/*.{js,cjs,mjs,jsx,ts,cts,mts,tsx}',
+			],
 			project: ['**/*.{js,cjs,mjs,jsx,ts,cts,mts,tsx}'],
 			astro: {
 				entry: ['src/**/*.astro'],
 				project: ['src/**/*.astro'],
 			},
-		}
+		},
 	},
 };
 
