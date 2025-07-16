@@ -1,5 +1,13 @@
 # @studiocms/web-vitals
 
+## 4.1.0
+
+### Minor Changes
+
+- [#3](https://github.com/withstudiocms/web-vitals/pull/3) [`0c9cf9f`](https://github.com/withstudiocms/web-vitals/commit/0c9cf9fcad65992e756de32a83808a775cada7e2) Thanks [@Adammatthiesen](https://github.com/Adammatthiesen)! - Update web-vitals package from v4.2.4 to v5
+
+  Note: FID property no longer exists
+
 ## 4.0.1
 
 ### Patch Changes
