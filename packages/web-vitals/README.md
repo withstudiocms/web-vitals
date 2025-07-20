@@ -1,5 +1,9 @@
 # @studiocms/web-vitals
 
+[![NPM Version](https://img.shields.io/npm/v/@studiocms/web-vitals)](https://npm.im/@studiocms/web-vitals)
+[![Formatted with Biome](https://img.shields.io/badge/Formatted_with-Biome-60a5fa?style=flat&logo=biome)](https://biomejs.dev/)
+[![Built with Astro](https://astro.badg.es/v2/built-with-astro/tiny.svg)](https://astro.build)
+
 This **[Astro integration][astro-integration]** enables tracking real-world website performance and storing the data in [Astro DB][db].
 
 `@studiocms/web-vitals` is a fork of the `@astrojs/web-vitals` package originally provided by the WithAstro organization for the Astro Studio product offering they have since sunset. StudioCMS was asked to takeover this package due to our integration of this package within StudioCMS for vitals and analytics reporting.
@@ -17,7 +21,7 @@ This **[Astro integration][astro-integration]** enables tracking real-world webs
    npx astro add @studiocms/web-vitals
    ```
 
-2. Push the tables added by the Web Vitals integration to Astro Studio:
+2. Push the tables added by the Web Vitals integration to Astro DB Database:
 
    ```sh
    npx astro db push
@@ -27,7 +31,7 @@ This **[Astro integration][astro-integration]** enables tracking real-world webs
 
 4. Your data will now be stored within your db!
 
-Learn more about [Astro DB](https://docs.astro.build/en/guides/astro-db/) and [deploying with Astro Studio](https://docs.astro.build/en/guides/astro-db/#astro-studio) in the Astro docs.
+Learn more about [Astro DB](https://docs.astro.build/en/guides/astro-db/) in the Astro docs.
 
 ## Migrating from `@astrojs/web-vitals`
 
@@ -54,7 +58,7 @@ To remove the Web Vitals integration, follow the Astro DB deprecation process:
    });
    ```
 
-2. Push the deprecation to Astro Studio:
+2. Push the deprecation to Astro DB Database:
 
    ```sh
    npx astro db push
@@ -76,7 +80,7 @@ To remove the Web Vitals integration, follow the Astro DB deprecation process:
    });
    ```
 
-4. Push the table deletion to Astro Studio:
+4. Push the table deletion to Astro DB Database:
 
    ```sh
    npx astro db push
@@ -84,7 +88,7 @@ To remove the Web Vitals integration, follow the Astro DB deprecation process:
 
 ## Support
 
-- Get help in the [StudioCMS Discord][discord]. Post questions in our `#support` forum, or visit our dedicated `#dev` channel to discuss current development and more!
+- Get help in the [StudioCMS Discord][discord]. Post questions in our `#support` forum, or visit our dedicated `#contribute` channel to discuss current development and more!
 
 - Check the [Astro Integration Documentation][astro-integration] for more on integrations.
 

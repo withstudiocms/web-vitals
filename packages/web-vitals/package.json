@@ -10,17 +10,37 @@
     "url": "git+https://github.com/withstudiocms/web-vitals.git",
     "directory": "packages/web-vitals"
   },
+  "bugs": "https://github.com/withstudiocms/web-vitals/issues",
   "keywords": [
     "withastro",
-    "astro-integration"
+    "astro-integration",
+    "web-vitals",
+    "performance",
+    "analytics",
+    "astro",
+    "astrojs"
   ],
-  "bugs": "https://github.com/withstudiocms/web-vitals/issues",
   "exports": {
-    ".": "./dist/index.js",
-    "./middleware": "./dist/middleware.js",
-    "./endpoint": "./dist/endpoint.js",
-    "./client-script": "./dist/client-script.js",
-    "./db-config": "./dist/db-config.js"
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./middleware": {
+      "types": "./dist/middleware.d.ts",
+      "default": "./dist/middleware.js"
+    },
+    "./endpoint": {
+      "types": "./dist/endpoint.d.ts",
+      "default": "./dist/endpoint.js"
+    },
+    "./client-script": {
+      "types": "./dist/client-script.d.ts",
+      "default": "./dist/client-script.js"
+    },
+    "./db-config": {
+      "types": "./dist/db-config.d.ts",  
+      "default": "./dist/db-config.js"
+    }
   },
   "files": [
     "dist"
