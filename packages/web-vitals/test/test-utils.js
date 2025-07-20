@@ -1,6 +1,6 @@
 import { loadFixture as baseLoadFixture } from '@inox-tools/astro-tests/astroFixture';
 
-/** @typedef {Awaited<ReturnType<import('@inox-tools/astro-tests/astroFixture').loadFixture>>} Fixture */
+/** @typedef {import('@inox-tools/astro-tests/astroFixture').Fixture} Fixture */
 /** @typedef {import('@inox-tools/astro-tests/astroFixture').DevServer} DevServer */
 
 /** @type {typeof import('@inox-tools/astro-tests/astroFixture')['loadFixture']} */
