@@ -1,7 +1,7 @@
 {
   "name": "@studiocms/web-vitals",
   "description": "Track your website's performance with Astro DB",
-  "version": "4.1.0",
+  "version": "4.1.1",
   "type": "module",
   "author": "studiocms",
   "license": "MIT",
@@ -38,7 +38,7 @@
       "default": "./dist/client-script.js"
     },
     "./db-config": {
-      "types": "./dist/db-config.d.ts",  
+      "types": "./dist/db-config.d.ts",
       "default": "./dist/db-config.js"
     }
   },

@@ -1,5 +1,11 @@
 # @studiocms/web-vitals
 
+## 4.1.1
+
+### Patch Changes
+
+- [#8](https://github.com/withstudiocms/web-vitals/pull/8) [`bf05df6`](https://github.com/withstudiocms/web-vitals/commit/bf05df6a1f8d31a212157273920adf2826e4b630) Thanks [@Adammatthiesen](https://github.com/Adammatthiesen)! - Update deps for Astro 5.12 and new @inox-tools/astro-tests package
+
 ## 4.1.0
 
 ### Minor Changes
