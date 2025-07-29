@@ -1,5 +1,11 @@
 # @studiocms/web-vitals
 
+## 4.2.0
+
+### Minor Changes
+
+- [#10](https://github.com/withstudiocms/web-vitals/pull/10) [`18af171`](https://github.com/withstudiocms/web-vitals/commit/18af171faeee62c89293ce4fec6c72d21cb55b37) Thanks [@Adammatthiesen](https://github.com/Adammatthiesen)! - Update deps due to new zod version on Astro (Astro 5.12.4, @astrojs/db 0.15.1)
+
 ## 4.1.1
 
 ### Patch Changes
