@@ -1,5 +1,11 @@
 # @studiocms/web-vitals
 
+## 4.2.1
+
+### Patch Changes
+
+- [#13](https://github.com/withstudiocms/web-vitals/pull/13) [`8d6e89b`](https://github.com/withstudiocms/web-vitals/commit/8d6e89bf961e72e086690c3d65de795133a854d8) Thanks [@Adammatthiesen](https://github.com/Adammatthiesen)! - Fix web-vitals zod regex, that was previously failing due to mismatched version number
+
 ## 4.2.0
 
 ### Minor Changes
