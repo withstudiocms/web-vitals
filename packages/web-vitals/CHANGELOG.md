@@ -1,5 +1,11 @@
 # @studiocms/web-vitals
 
+## 4.3.0
+
+### Minor Changes
+
+- [#15](https://github.com/withstudiocms/web-vitals/pull/15) [`32c0bf8`](https://github.com/withstudiocms/web-vitals/commit/32c0bf8af3b7d588b2e02090af23523ae16b79c3) Thanks [@Adammatthiesen](https://github.com/Adammatthiesen)! - Updates deps to support @astrojs/db ^0.16.1
+
 ## 4.2.1
 
 ### Patch Changes
