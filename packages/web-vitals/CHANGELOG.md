@@ -1,5 +1,11 @@
 # @studiocms/web-vitals
 
+## 4.4.0
+
+### Minor Changes
+
+- [#17](https://github.com/withstudiocms/web-vitals/pull/17) [`e6c8f4f`](https://github.com/withstudiocms/web-vitals/commit/e6c8f4f89f44745599312cb1189e7118b53c92d5) Thanks [@renovate](https://github.com/apps/renovate)! - Update dependency @astrojs/db to ^0.17.0
+
 ## 4.3.0
 
 ### Minor Changes
