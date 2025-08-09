@@ -54,7 +54,7 @@
     "web-vitals": "^5.0.3"
   },
   "peerDependencies": {
-    "@astrojs/db": "^0.16.1"
+    "@astrojs/db": "^0.17.0"
   },
   "devDependencies": {
     "@astrojs/db": "catalog:",
