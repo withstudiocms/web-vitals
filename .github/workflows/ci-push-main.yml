@@ -105,15 +105,25 @@ jobs:
           PR_URL: ${{ steps.changesets.outputs.pull_request_url }}
           GITHUB_TOKEN: ${{ secrets.STUDIOCMS_SERVICE_TOKEN }}
 
-      - name: Generate Announcement
-        id: message
-        if: steps.changesets.outputs.published == 'true'
-        run: node .github/scripts/announce.mjs '${{ steps.changesets.outputs.publishedPackages }}'
-
-      - name: Send message on Discord
-        if: steps.changesets.outputs.published == 'true'
-        env:
-          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_RELEASE }}
-        uses: Ilshidur/action-discord@0c4b27844ba47cb1c7bee539c8eead5284ce9fa9 # 0.3.2
+      - name: Release Bot
+        if: ${{ steps.changesets.outputs.published == 'true' }}
+        uses: withstudiocms/automations/.github/actions/releasebot@main
         with:
-          args: "${{ steps.message.outputs.DISCORD_MESSAGE }}"
+          repository: withstudiocms/web-vitals
+          CWD: ${{ github.workspace }}
+          PublishedPackages: ${{ steps.changesets.outputs.publishedPackages }}
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_RELEASE }}
+          RoleMentionId: 1309310416362537020
+
+      # - name: Generate Announcement
+      #   id: message
+      #   if: steps.changesets.outputs.published == 'true'
+      #   run: node .github/scripts/announce.mjs '${{ steps.changesets.outputs.publishedPackages }}'
+
+      # - name: Send message on Discord
+      #   if: steps.changesets.outputs.published == 'true'
+      #   env:
+      #     DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_RELEASE }}
+      #   uses: Ilshidur/action-discord@0c4b27844ba47cb1c7bee539c8eead5284ce9fa9 # 0.3.2
+      #   with:
+      #     args: "${{ steps.message.outputs.DISCORD_MESSAGE }}"
