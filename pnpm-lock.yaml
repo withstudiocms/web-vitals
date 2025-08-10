@@ -7,8 +7,8 @@ settings:
 catalogs:
   default:
     '@astrojs/db':
-      specifier: ^0.17.0
-      version: 0.17.0
+      specifier: ^0.17.1
+      version: 0.17.1
     '@astrojs/node':
       specifier: ^9.3.3
       version: 9.3.3
@@ -71,7 +71,7 @@ importers:
     devDependencies:
       '@astrojs/db':
         specifier: 'catalog:'
-        version: 0.17.0
+        version: 0.17.1
       '@inox-tools/astro-tests':
         specifier: 'catalog:'
         version: 0.7.0(astro@5.12.8(@types/node@24.0.10)(jiti@2.4.2)(rollup@4.44.2)(typescript@5.8.3))
@@ -86,7 +86,7 @@ importers:
     dependencies:
       '@astrojs/db':
         specifier: 'catalog:'
-        version: 0.17.0
+        version: 0.17.1
       '@astrojs/node':
         specifier: 'catalog:'
         version: 9.3.3(astro@5.12.8(@types/node@24.0.10)(jiti@2.4.2)(rollup@4.44.2)(typescript@5.8.3))
@@ -102,8 +102,8 @@ packages:
   '@astrojs/compiler@2.12.2':
     resolution: {integrity: sha512-w2zfvhjNCkNMmMMOn5b0J8+OmUaBL1o40ipMvqcG6NRpdC+lKxmTi48DT8Xw0SzJ3AfmeFLB45zXZXtmbsjcgw==}
 
-  '@astrojs/db@0.17.0':
-    resolution: {integrity: sha512-nS7ma+uzi3pfGJxsrEIF5BhLMJAj79GD5tHcd4jMc8NMmk4yiMU0x1YPBnSWe+yAOX9ARKN+dISw8iM2VZzkCg==}
+  '@astrojs/db@0.17.1':
+    resolution: {integrity: sha512-QL09xZf5Om8AshIlt+YhLDYf6M1QSzv+kfuljsPrhEXJ8U/tuKnbWs2M3wimFaLG3/fU0prFix8lWt7zU8ytfA==}
 
   '@astrojs/internal-helpers@0.6.1':
     resolution: {integrity: sha512-l5Pqf6uZu31aG+3Lv8nl/3s4DbUzdlxTWDof4pEpto6GUJNhhCbelVi9dEyurOVyqaelwmS9oSyOWOENSfgo9A==}
@@ -2613,7 +2613,7 @@ snapshots:
 
   '@astrojs/compiler@2.12.2': {}
 
-  '@astrojs/db@0.17.0':
+  '@astrojs/db@0.17.1':
     dependencies:
       '@libsql/client': 0.15.9
       deep-diff: 1.0.2
