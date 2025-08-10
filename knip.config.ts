@@ -4,8 +4,11 @@ const config: KnipConfig = {
 	exclude: ['duplicates', 'optionalPeerDependencies'],
 	workspaces: {
 		'.': {
-			ignoreDependencies: ['@changesets/config'],
+			ignoreDependencies: ['@changesets/config', 'tinyglobby'],
 			entry: ['.github/workflows/*.yml'],
+			ignore: [
+				'.github/scripts/*.mjs'
+			]
 		},
 		'packages/test-scripts': {
 			entry: ['cmd/**/*.{js,cjs,mjs,jsx,ts,cts,mts,tsx}', 'index.{js,cjs,mjs,jsx,ts,cts,mts,tsx}'],
