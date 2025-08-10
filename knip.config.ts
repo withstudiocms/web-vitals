@@ -6,9 +6,7 @@ const config: KnipConfig = {
 		'.': {
 			ignoreDependencies: ['@changesets/config', 'tinyglobby'],
 			entry: ['.github/workflows/*.yml'],
-			ignore: [
-				'.github/scripts/*.mjs'
-			]
+			ignore: ['.github/scripts/*.mjs'],
 		},
 		'packages/test-scripts': {
 			entry: ['cmd/**/*.{js,cjs,mjs,jsx,ts,cts,mts,tsx}', 'index.{js,cjs,mjs,jsx,ts,cts,mts,tsx}'],
