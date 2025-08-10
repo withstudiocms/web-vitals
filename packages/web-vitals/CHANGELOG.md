@@ -1,5 +1,11 @@
 # @studiocms/web-vitals
 
+## 4.4.1
+
+### Patch Changes
+
+- [#21](https://github.com/withstudiocms/web-vitals/pull/21) [`20b5786`](https://github.com/withstudiocms/web-vitals/commit/20b57862bb4f6d7320bf3aaa21e7ab4ca010a960) Thanks [@Adammatthiesen](https://github.com/Adammatthiesen)! - Patch astrodb dep
+
 ## 4.4.0
 
 ### Minor Changes
