@@ -8,6 +8,6 @@
     "test-scripts": "./index.js"
   },
   "dependencies": {
-    "tinyglobby": "^0.2.12"
+    "tinyglobby": "^0.2.14"
   }
 }
