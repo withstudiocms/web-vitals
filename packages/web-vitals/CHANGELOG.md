@@ -1,5 +1,11 @@
 # @studiocms/web-vitals
 
+## 4.5.0
+
+### Minor Changes
+
+- [#29](https://github.com/withstudiocms/web-vitals/pull/29) [`e8d1b1f`](https://github.com/withstudiocms/web-vitals/commit/e8d1b1f750e4385c2822d5de106eac22711a87e3) Thanks [@renovate](https://github.com/apps/renovate)! - Update web-vitals to 5.1.0
+
 ## 4.4.1
 
 ### Patch Changes
