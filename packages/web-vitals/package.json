@@ -51,7 +51,7 @@
     "test": "test-scripts test --timeout 50000 \"test/**/*.test.js\""
   },
   "dependencies": {
-    "web-vitals": "^5.0.3"
+    "web-vitals": "^5.1.0"
   },
   "peerDependencies": {
     "@astrojs/db": "catalog:"
@@ -60,7 +60,7 @@
     "@astrojs/db": "catalog:",
     "@inox-tools/astro-tests": "catalog:",
     "astro": "catalog:",
-    "linkedom": "^0.18.9"
+    "linkedom": "^0.18.11"
   },
   "publishConfig": {
     "provenance": true
