@@ -60,7 +60,7 @@ importers:
   packages/test-scripts:
     dependencies:
       tinyglobby:
-        specifier: ^0.2.12
+        specifier: ^0.2.14
         version: 0.2.14
 
   packages/web-vitals:
