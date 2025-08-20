@@ -1,9 +1,9 @@
 catalog:
   '@types/node': ^22.0.0
   '@astrojs/db': ^0.17.1
-  '@astrojs/node': ^9.3.3
+  '@astrojs/node': ^9.4.2
   '@inox-tools/astro-tests': ^0.7.0
-  astro: ^5.12.8
+  astro: ^5.13.2
     
 packages:
   - "packages/*"
