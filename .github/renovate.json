@@ -2,11 +2,11 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended",
-    "schedule:earlyMondays",
-    ":preserveSemverRanges",
+    "schedule:weekly",
     "group:allNonMajor",
     ":disablePeerDependencies",
-    "customManagers:biomeVersions"
+    "customManagers:biomeVersions",
+    "helpers:pinGitHubActionDigestsToSemver"
   ],
   "dependencyDashboard": true,
   "postUpdateOptions": ["pnpmDedupe"],
@@ -24,16 +24,30 @@
       "enabled": false
     },
     {
-      "matchFileNames": [".node-version"],
-      "enabled": false
-    },
-    {
       "matchDepTypes": ["pnpm.catalog.min"],
       "enabled": false
     },
     {
-      "matchPackageNames": ["drizzle-orm"],
+      "matchFileNames": [".node-version"],
       "enabled": false
+    },
+    {
+      "groupName": "github-actions",
+      "matchManagers": ["github-actions"],
+      "updatePinnedDependencies": true
     }
+  ],
+  "ignoreDeps": [
+    "@biomejs/biome",
+    "knip",
+    "@types/node",
+    "drizzle-orm",
+    "sharp",
+    "node",
+    "npm",
+    "pnpm",
+    "esbuild",
+    "codemirror",
+    "vite"
   ]
 }
