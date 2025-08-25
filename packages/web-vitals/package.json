@@ -60,7 +60,7 @@
     "@astrojs/db": "catalog:",
     "@inox-tools/astro-tests": "catalog:",
     "astro": "catalog:",
-    "linkedom": "^0.18.11"
+    "linkedom": "^0.18.12"
   },
   "publishConfig": {
     "provenance": true
