@@ -1,5 +1,11 @@
 # @studiocms/web-vitals
 
+## 4.5.1
+
+### Patch Changes
+
+- [#34](https://github.com/withstudiocms/web-vitals/pull/34) [`f23f713`](https://github.com/withstudiocms/web-vitals/commit/f23f713b591e875d3a43159320e51b8bb0931e51) Thanks [@renovate](https://github.com/apps/renovate)! - Update dependency linkedom to ^0.18.12
+
 ## 4.5.0
 
 ### Minor Changes
