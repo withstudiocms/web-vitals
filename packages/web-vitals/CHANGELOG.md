@@ -1,5 +1,11 @@
 # @studiocms/web-vitals
 
+## 4.5.2
+
+### Patch Changes
+
+- [#36](https://github.com/withstudiocms/web-vitals/pull/36) [`de51086`](https://github.com/withstudiocms/web-vitals/commit/de51086cf88da3fd1cfcf453bf686bddef6422f3) Thanks [@Adammatthiesen](https://github.com/Adammatthiesen)! - Updated buildkit and test scripts
+
 ## 4.5.1
 
 ### Patch Changes
