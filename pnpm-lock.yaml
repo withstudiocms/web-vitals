@@ -39,29 +39,20 @@ importers:
         specifier: 24.0.10
         version: 24.0.10
       '@withstudiocms/buildkit':
-        specifier: 0.1.0-beta.1
-        version: 0.1.0-beta.1
+        specifier: 0.1.0-beta.4
+        version: 0.1.0-beta.4
       knip:
         specifier: 5.61.3
         version: 5.61.3(@types/node@24.0.10)(typescript@5.8.3)
       pkg-pr-new:
         specifier: 0.0.54
         version: 0.0.54
-      test-scripts:
-        specifier: workspace:*
-        version: link:packages/test-scripts
       tinyglobby:
         specifier: ^0.2.14
         version: 0.2.14
       typescript:
         specifier: 5.8.3
         version: 5.8.3
-
-  packages/test-scripts:
-    dependencies:
-      tinyglobby:
-        specifier: ^0.2.14
-        version: 0.2.14
 
   packages/web-vitals:
     dependencies:
@@ -964,8 +955,8 @@ packages:
   '@ungap/structured-clone@1.3.0':
     resolution: {integrity: sha512-WmoN8qaIAo7WTYWbAZuG8PYEhn5fkz7dZrqTBZ7dtt//lL2Gwms1IcnQ5yHqjDfX8Ft5j4YzDM23f87zBfDe9g==}
 
-  '@withstudiocms/buildkit@0.1.0-beta.1':
-    resolution: {integrity: sha512-0qigrGWjtxizVVccZh6xcW6xrcYosUZ1SQhrQ0ZH2GggZGAIxHJLNr36m2PCuOs71vjkl90C0MLvGTblGEvFdw==}
+  '@withstudiocms/buildkit@0.1.0-beta.4':
+    resolution: {integrity: sha512-wzdMHigT4Ku654FyoKjXMJHPqCfUhiwTLcJEt4ROcmVFn8ZSBvJCtQf60H6iW+bL6AjnQwTGqtR0QimwEnuH3Q==}
     hasBin: true
 
   acorn@8.15.0:
@@ -1671,7 +1662,6 @@ packages:
 
   libsql@0.5.13:
     resolution: {integrity: sha512-5Bwoa/CqzgkTwySgqHA5TsaUDRrdLIbdM4egdPcaAnqO3aC+qAgS6BwdzuZwARA5digXwiskogZ8H7Yy4XfdOg==}
-    cpu: [x64, arm64, wasm32, arm]
     os: [darwin, linux, win32]
 
   linkedom@0.18.12:
@@ -3517,11 +3507,11 @@ snapshots:
 
   '@ungap/structured-clone@1.3.0': {}
 
-  '@withstudiocms/buildkit@0.1.0-beta.1':
+  '@withstudiocms/buildkit@0.1.0-beta.4':
     dependencies:
+      chalk: 5.6.0
       esbuild: 0.25.9
-      fast-glob: 3.3.3
-      kleur: 4.1.5
+      tinyglobby: 0.2.14
 
   acorn@8.15.0: {}
 
