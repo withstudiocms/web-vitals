@@ -10,15 +10,15 @@ catalog:
   '@types/node': ^22.0.0
   astro: ^5.13.3
 
-ignoredBuiltDependencies:
-  - '@biomejs/biome'
-  - esbuild
-  - oxc-resolver
-  - sharp
-
 minimumReleaseAge: 4320
 
 minimumReleaseAgeExclude:
   - studiocms
   - '@studiocms/*'
   - '@withstudiocms/*'
+
+onlyBuiltDependencies:
+  - '@biomejs/biome'
+  - esbuild
+  - oxc-resolver
+  - sharp
