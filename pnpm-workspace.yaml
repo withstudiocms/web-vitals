@@ -9,3 +9,10 @@ packages:
   - "packages/*"
   - "packages/*/test/fixtures/*"
   - "playground"
+
+minimumReleaseAge: 4320
+
+minimumReleaseAgeExclude:
+  - studiocms
+  - '@studiocms/*'
+  - '@withstudiocms/*'
