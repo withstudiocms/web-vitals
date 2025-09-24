@@ -49,5 +49,6 @@
     "esbuild",
     "codemirror",
     "vite"
-  ]
+  ],
+  "minimumReleaseAge": "3 days"
 }
