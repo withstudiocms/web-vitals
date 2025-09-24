@@ -1,5 +1,11 @@
 # @studiocms/web-vitals
 
+## 4.5.3
+
+### Patch Changes
+
+- [#40](https://github.com/withstudiocms/web-vitals/pull/40) [`4d8d924`](https://github.com/withstudiocms/web-vitals/commit/4d8d92424e12b03786396f81cac057dc25281c12) Thanks [@Adammatthiesen](https://github.com/Adammatthiesen)! - Adjust peerDeps to allow newer miniors of AstroDB
+
 ## 4.5.2
 
 ### Patch Changes
