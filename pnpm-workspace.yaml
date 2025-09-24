@@ -4,11 +4,11 @@ packages:
   - playground
 
 catalog:
-  '@astrojs/db': ^0.17.1
+  '@astrojs/db': ^0.18.0
   '@astrojs/node': ^9.4.3
-  '@inox-tools/astro-tests': ^0.7.0
+  '@inox-tools/astro-tests': ^0.8.0
   '@types/node': ^22.0.0
-  astro: ^5.13.3
+  astro: ^5.13.9
 
 minimumReleaseAge: 4320
 
