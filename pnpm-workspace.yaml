@@ -5,7 +5,7 @@ packages:
 
 catalog:
   '@astrojs/db': ^0.18.0
-  '@astrojs/node': ^9.4.3
+  '@astrojs/node': ^9.5.0
   '@inox-tools/astro-tests': ^0.8.0
   '@types/node': ^22.0.0
   astro: ^5.13.9
