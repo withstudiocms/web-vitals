@@ -39,8 +39,8 @@ importers:
         specifier: ^24.0.10
         version: 24.3.0
       '@withstudiocms/buildkit':
-        specifier: ^0.1.0-beta.4
-        version: 0.1.0-beta.4
+        specifier: ^0.2.1
+        version: 0.2.1
       knip:
         specifier: ^5.63.1
         version: 5.63.1(@types/node@24.3.0)(typescript@5.8.3)
@@ -1032,8 +1032,8 @@ packages:
   '@ungap/structured-clone@1.3.0':
     resolution: {integrity: sha512-WmoN8qaIAo7WTYWbAZuG8PYEhn5fkz7dZrqTBZ7dtt//lL2Gwms1IcnQ5yHqjDfX8Ft5j4YzDM23f87zBfDe9g==}
 
-  '@withstudiocms/buildkit@0.1.0-beta.4':
-    resolution: {integrity: sha512-wzdMHigT4Ku654FyoKjXMJHPqCfUhiwTLcJEt4ROcmVFn8ZSBvJCtQf60H6iW+bL6AjnQwTGqtR0QimwEnuH3Q==}
+  '@withstudiocms/buildkit@0.2.1':
+    resolution: {integrity: sha512-vwbfHCk15+wL3A70L+4hmOQYpwwoSbNna5nAcGYhFMrAE72RMh4MFaug5IN2GGQUVdDaLFXe0i5MOMAqe1oc1w==}
     hasBin: true
 
   acorn@8.15.0:
@@ -1243,6 +1243,7 @@ packages:
 
   deep-diff@1.0.2:
     resolution: {integrity: sha512-aWS3UIVH+NPGCD1kki+DCU9Dua032iSsO43LqQpcs4R3+dVv7tX0qBGjiVHJHjplsoUM2XRO/KB92glqc68awg==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
   defu@6.1.4:
     resolution: {integrity: sha512-mEQCMmwJu317oSz8CwdIOdwf3xMif1ttiM8LTufzc3g6kR+9Pe236twL8j3IYT1F7GfRgGcW6MWxzZjLIkuHIg==}
@@ -3595,9 +3596,8 @@ snapshots:
 
   '@ungap/structured-clone@1.3.0': {}
 
-  '@withstudiocms/buildkit@0.1.0-beta.4':
+  '@withstudiocms/buildkit@0.2.1':
     dependencies:
-      chalk: 5.6.0
       esbuild: 0.25.9
       tinyglobby: 0.2.15
 
