@@ -16,6 +16,8 @@ minimumReleaseAgeExclude:
   - studiocms
   - '@studiocms/*'
   - '@withstudiocms/*'
+  # Renovate security update: astro@5.15.9
+  - astro@5.15.9
 
 onlyBuiltDependencies:
   - '@biomejs/biome'
